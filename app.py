@@ -45,15 +45,6 @@ def text_to_speech(text, language='en'):
 def home():
     st.write("""
     <style>
-    .animated-background {
-        animation: slide 50s linear infinite alternate;
-        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fhistory-improvements-text-to-speech-technology-altaf-hossain-limon&psig=AOvVaw0y-M7DsMoVcAQlJSP_HjS_&ust=1712251870258000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCM0t3JpoUDFQAAAAAdAAAAABAK'); /* Add your background image URL here */
-        background-size: cover;
-        width: 50%;
-        height: 50vh;
-        overflow: hidden;
-        background-color: pink;
-    }
 
     @keyframes slide {
         0% { background-position-x: 0%; }
